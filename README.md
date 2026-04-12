@@ -10,7 +10,17 @@ Meu nome é Sara Martins Ferreira, tenho 18 anos e sou formada no ensino médio 
   
 ## 💼 Experiência Profissional
 - Estagiária na Câmara Legislativa
+- Atuação na recepção de pessoas na entrada do gabinete  
+- Atendimento telefônico e prestação de informações ao público  
+- Despacho de documentos por meio da plataforma SEI  
+- Utilização de blocos de assinatura para tramitação de documentos  
+- Acompanhamento de processos administrativos  
+- Comunicação interna para solicitação de assinaturas  
+
 - Estagiária em uma clínica de cardiologia (atual)
+-  Agendamento de consultas e exames  
+- Atendimento ao público por meio de ligações telefônicas e mensagens  
+- Organização de informações e apoio às rotinas administrativas  
 
 ## 🛠️ Habilidades
 ### Habilidades Técnicas:
