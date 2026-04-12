@@ -16,19 +16,25 @@
       text-align: center;
       padding: 60px 20px;
       background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      animation: fadeIn 1.5s ease;
     }
 
     header img {
-      width: 140px;
-      height: 140px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       border: 4px solid white;
       object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    header img:hover {
+      transform: scale(1.1);
     }
 
     header h1 {
       margin: 15px 0 5px;
-      font-size: 32px;
+      font-size: 34px;
     }
 
     header p {
@@ -48,15 +54,50 @@
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+      animation: fadeUp 1s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
     }
 
     h2 {
       color: #60a5fa;
-      margin-bottom: 10px;
     }
 
     ul {
       padding-left: 20px;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .whatsapp {
+      background: #25d366;
+    }
+
+    .email {
+      background: #2563eb;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
     }
 
     footer {
@@ -65,6 +106,16 @@
       background: #020617;
       margin-top: 30px;
       font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fadeUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
@@ -75,13 +126,18 @@
     <img src="foto.jpg" alt="Foto de Sara">
     <h1>Sara Martins Ferreira</h1>
     <p>18 anos • Portfólio Profissional • TI</p>
+
+    <div class="buttons">
+      <a class="btn whatsapp" href="https://wa.me/5561991099042" target="_blank">WhatsApp</a>
+      <a class="btn email" href="mailto:saramartinsferreiraa@gmail.com">E-mail</a>
+    </div>
   </header>
 
   <section>
 
     <div class="card">
       <h2>👩‍💻 Sobre mim</h2>
-      <p>Formada no ensino médio técnico em Eletrotécnica pelo SESI de Sobradinho, com grande interesse na área de Tecnologia da Informação e desenvolvimento profissional contínuo.</p>
+      <p>Formada no ensino médio técnico em Eletrotécnica pelo SESI de Sobradinho, com forte interesse na área de Tecnologia da Informação e desenvolvimento contínuo.</p>
     </div>
 
     <div class="card">
@@ -94,11 +150,23 @@
     </div>
 
     <div class="card">
-      <h2>💼 Experiência</h2>
+      <h2>💼 Experiência Profissional</h2>
+
+      <p><strong>Estagiária – Câmara Legislativa</strong></p>
       <ul>
-        <li>Estagiária na Câmara Legislativa</li>
-        <li>Estagiária em clínica de cardiologia</li>
+        <li>Recepção e atendimento ao público</li>
+        <li>Atendimento telefônico</li>
+        <li>Despacho de documentos via SEI</li>
+        <li>Acompanhamento de processos</li>
       </ul>
+
+      <p><strong>Estagiária – Clínica de Cardiologia (atual)</strong></p>
+      <ul>
+        <li>Agendamento de consultas e exames</li>
+        <li>Atendimento por ligações e mensagens</li>
+        <li>Apoio administrativo</li>
+      </ul>
+
     </div>
 
     <div class="card">
@@ -113,16 +181,11 @@
     </div>
 
     <div class="card">
-      <h2>📁 Projetos</h2>
-      <p>Participação em projetos de robótica no primeiro ano do ensino médio.</p>
-    </div>
-
-    <div class="card">
       <h2>🏆 Certificados</h2>
       <ul>
-        <li>Olimpíada Brasileira de Astronomia (OBA)</li>
-        <li>Olimpíada Canguru de Matemática</li>
-        <li>Programa Miniempresa (36 horas)</li>
+        <li>OBA</li>
+        <li>Canguru de Matemática</li>
+        <li>Miniempresa (36h)</li>
       </ul>
     </div>
 
