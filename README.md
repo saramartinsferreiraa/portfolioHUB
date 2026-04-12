@@ -4,9 +4,9 @@
 Meu nome é Sara Martins Ferreira, tenho 18 anos e sou formada no ensino médio técnico em Eletrotécnica pelo SESI de Sobradinho. Tenho grande interesse na área de Tecnologia da Informação e busco constantemente desenvolver minhas habilidades pessoais e profissionais.
 
 ## 🎓 Formação
-- Ensino Médio Técnico em Eletrotécnica – SESI Sobradinho (concluído)
-- Curso de Inglês (concluído)
-- Curso de Francês (concluído)
+- Ensino Médio Técnico em Eletrotécnica – SESI Sobradinho - concluído
+- Curso de Inglês - concluído 
+- Curso de Francês - concluído 
   
 ## 💼 Experiência Profissional
 - Estagiária na Câmara Legislativa
