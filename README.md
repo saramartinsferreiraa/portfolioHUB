@@ -5,6 +5,7 @@ Meu nome é Sara Martins Ferreira, tenho 18 anos e sou formada no ensino médio 
 
 ## 🎓 Formação
 - Ensino Médio Técnico em Eletrotécnica – SESI Sobradinho - concluído
+- Cursando Engenharia de Software – CEUB (1º semestre)
 - Curso de Inglês - concluído 
 - Curso de Francês - concluído 
   
