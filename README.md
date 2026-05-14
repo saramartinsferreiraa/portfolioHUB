@@ -38,6 +38,15 @@ Meu nome é Sara Martins Ferreira, tenho 18 anos e sou formada no ensino médio 
 ## 📁 Projetos
 - Participação em projetos de robótica no 1º ano do ensino médio
 
+- ## Tecnologias Utilizadas
+- HTML
+- Git
+- GitHub
+
+## GitHub Pages
+Link do site:
+https://saramartinsferreiraa.github.io/portfolioHUB/
+
 ## 🏆 Certificados e Conquistas
 - Participação na Olimpíada Brasileira de Astronomia (OBA)
 - Participação na Olimpíada Canguru de Matemática
