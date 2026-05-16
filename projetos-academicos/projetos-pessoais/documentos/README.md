@@ -1,3 +1,3 @@
 # Documentos
 
-Esta pasta contém documentos, certificados e arquivos relacionados ao portfólio profissional.
+Esta pasta contém arquivos relacionados ao portfólio profissional.
